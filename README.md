@@ -1,4 +1,4 @@
-# GreatOutDoor-authentication service
+# Drink-and-Delight-authentication service
 
 server.port=9000
 
@@ -7,9 +7,9 @@ spring.application.name=authentication_service
 ## Data source
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521:orcl  
 
-spring.datasource.username=sprint2db
+spring.datasource.username=sys as sysdba
 
-spring.datasource.password=student123
+spring.datasource.password=oracle
 
 spring.jpa.show-sql=true
 
